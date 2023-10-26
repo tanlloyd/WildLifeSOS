@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javan rhinoceros</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/rhino.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+  </head>
+  <body>
+
+  <!-- header start-->
+    <header class="header">
+
+        <section class="flex">
+
+            <a href="#" class="logo"> <i class="fas fa-paw"></i> WildLifeSOS </a>
+
+            <nav class="navbar">
+                <a href="index.html">home</a>
+                <a href="about.html">about</a>
+                <a href="index.html#shop">animals</a>
+                <a href="index.html#contact">contact</a>
+            </nav>
+
+            <div class="icons">
+                <div class="fas fa-bars" id="menu-btn"></div>
+                <a href="#" class="fas fa-shopping-cart" style="display: none;"></a>
+                <div class="fas fa-user" id="login-btn" style="display: none;"></div>
+            </div>
+
+            <form action="" class="login-form">
+                <h3>sign in</h3>
+                <input type="email" name="" placeholder="enter your email" id="" class="box">
+                <input type="password" name="" placeholder="enter your password" id="" class="box">
+                <div class="remember">
+                    <input type="checkbox" name="" id="remember-me">
+                    <label for="remember-me">remember me</label>
+                </div>
+                <input type="submit" value="sign in" class="btn">
+                <div class="links">
+                    <a href="#">forget password</a>
+                    <a href="#">sign up</a>
+                </div>
+            </form>
+
+        </section>
+
+    </header>
+
+    <!-- header end-->
+
+  <!--home start-->
+    <div class="home" id="home">
+
+        <section class="flex">
+            <div class="content">
+                <h3> <span style="color: #130f40;">Javan Rhinoceros</span> </h3>
+                <a href="#about" class="btn">Read More</a>
+            </div>
+        </section>
+
+        <img src="image/bottom_wave.png" class="wave" alt="">
+
+    </div>
+
+<!--home ends-->
+
+<!-- about start-->
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="image/jrhino.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>Javan Rhinoceros</h3>
+        <p>Javan rhinoceros has a distinctive, armor-like skin with deep folds, and it primarily inhabits dense tropical forests in Southeast Asia</p>
+
+    </div>
+
+</section>
+<!--about end-->
+
+<!-- video starts-->
+<section class="video" id="video" >
+  <h1 style="font-size: 3rem; text-align: center;">Discover more about me</h1>
+  <div class="rhinovid">
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/3tTf2q6MYjM?si=nZMeXbOcdRHcgAjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+</section>
+<!-- video ends-->
+
+<!--audio start-->
+<section class="audio" id="audio" >
+  <h1 style="font-size: 2.5rem; text-align: center;">Play to hear me shout!</h1>
+  <div class="rhinosound" style="margin-top: 50px; display: flex; justify-content: center; align-items: center;">
+    <i class="fa-solid fa-volume-high fa-10x" id="playIcon" style="cursor: pointer;"></i>
+  </div>
+  <audio id="audioPlayer">
+    <source src="sounds/rhino.mp3" type="audio/mpeg">
+  </audio>
+</section>
+<!--audio ends-->
+
+<!-- extinct section -->
+<section class="dog-food" id="dog-food" style="margin-top: 50px;"> <!-- change to partners-->
+
+
+    <div class="image">
+        <img src="image/rhinocry.jpeg" alt="" style="margin-top:20px;">
+    </div>
+
+    <div class="content">
+        <h3> Why am I endangered?</h3>
+        <p>1. Destruction and fragmentation of my tropical forest habitat</p>
+        <p>2. I am hunted by poachers for my valuable horns</p>
+        <p>3. I have slow reproduction rate, with long gestation periods and infrequent births</p>
+    </div>
+
+</section>
+<!-- extinct ends-->
+
+<!-- save starts-->
+<section class="cat-food" style="margin-top: 70px;">
+
+    <div class="content">
+        <h3>How to save me?</h3>
+        <p>1. Contribute to reputable wildlife conservation organizations that protects me</p>
+        <p>2. Educate others about my plight and the importance of preserving my habitat and stopping poaching</p>
+        <p>3. Avoid purchasing products made from my horn</p>
+    </div>
+
+    <div class="image">
+        <img src="image/happyrhino.jpg" alt="" style="height: 400px; width: 565px;">
+    </div>
+
+</section>
+<!-- save ends-->
+
+
+<!-- donate starts-->
+<section class="donate" id="donate" style="margin-top: 70px;">
+  <h1 style="font-size: 3rem; text-align: center;">Donate Them To Save Me!</h1>
+  <div class="donate" style="font-size: 2rem; text-align: center; margin: 30px;">
+    <p style="margin-top: 30px;">1. <a href="https://www.worldwildlife.org/species/rhino" target="_blank">World Wildlife Fund - Rhino</a></p>
+    <p style="margin-top: 10px;">2. <a href="https://www.nature.org/en-us/about-us/where-we-work/africa/stories-in-africa/relocating-rhinos-kenya/" target="_blank">The Nature Conservancy - Relocating Rhinos in Kenya</a></p>
+  </div>
+</section>
+
+<!-- donate ends-->
+
+    <footer class="footer">
+
+        <img src="image/top_wave.png" alt="">
+
+        <div class="share">
+            <a href="https://www.instagram.com/wild_lifesos/" class="btn"> <i class="fab fa-instagram"></i> instagram </a>
+        </div>
+
+        <div class="credit"> &copy; 2023 WildLifeSOS.<span>  </span> | All Rights Reserved </div>
+
+    </footer>
+
+
+
+    <script src="js/rhino.js"></script>
+  </body>
+
+
+</html>
